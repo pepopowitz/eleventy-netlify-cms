@@ -1,0 +1,9 @@
+{
+  "name": "eleventy-netlify-cms",
+  "version": "1.0.0",
+  "description": "A site demonstrating 11ty and Netlify CMS",
+  "main": "index.js",
+  "author": "Steven Hicks <steven.j.hicks@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
