@@ -1,6 +1,7 @@
 ---
 title: Post 5
 layout: blog.njk
+tags: post
 ---
 
 ## NO MORE SPOOOOKY KITTENS

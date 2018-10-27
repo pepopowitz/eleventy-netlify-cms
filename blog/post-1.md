@@ -1,6 +1,7 @@
 ---
 title: Post 1
 layout: blog.njk
+tags: post
 ---
 
 ## Kittens are the best!

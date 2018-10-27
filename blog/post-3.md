@@ -1,6 +1,7 @@
 ---
 title: Post 3
 layout: blog.njk
+tags: post
 ---
 
 ## Kittens are okay.

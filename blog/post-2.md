@@ -1,6 +1,7 @@
 ---
 title: Post 2
 layout: blog.njk
+tags: post
 ---
 
 ## Kittens are still cool.

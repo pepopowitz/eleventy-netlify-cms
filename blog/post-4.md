@@ -1,6 +1,7 @@
 ---
 title: Post 4
 layout: blog.njk
+tags: post
 ---
 
 ## Kittens are meh.
