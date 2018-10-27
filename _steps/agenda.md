@@ -68,6 +68,32 @@
   e. reference collections.postsReversed
 
 8 - netlify admin
+  a. add admin folder
+  b. admin/index.html
+  c. admin/config.yml
+  d. addPassthroughCopy('admin')
+  e. add identity widget
+  f. Netlify identity settings
+    > Enable Identity
+    > Open or Invite Only
+    > Add Google provider
+    > Enable Git Gateway
+    > Invite User (me)
+  g. Check email & accept invite
+  h. sign in with google
+  i. Make content!
+  j. Show Git
 
-9 - pagination
+9. THANK YOU!
+@pepopowitz
+steven.j.hicks@gmail.com
 
+
+
+git log-1
+
+git add .
+git commit -m "message"
+git push origin
+
+git pull

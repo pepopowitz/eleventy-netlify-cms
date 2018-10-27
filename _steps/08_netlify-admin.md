@@ -30,6 +30,7 @@ add admin folder
         slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
         fields: # The fields for each document, usually in front matter
           - {label: "Layout", name: "layout", widget: "hidden", default: "blog"}
+          - {label: "tags", name: "tags", widget: "hidden", default: "post"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Publish Date", name: "date", widget: "datetime"}
           - {label: "Body", name: "body", widget: "markdown"}
@@ -52,3 +53,16 @@ https://app.netlify.com/sites/spooooooky-kitties/identity
   > Open or Invite Only
   > Add Google provider
   > Enable Git Gateway
+  > Invite User (me)
+
+
+Check email
+  Accept invite
+  Sign in with google
+
+Make posts!
+
+Show git
+
+
+
