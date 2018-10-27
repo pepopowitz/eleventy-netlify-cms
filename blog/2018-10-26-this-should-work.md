@@ -1,6 +1,6 @@
 ---
 layout: blog
-tags: blog
+tags: post
 title: This should work
 date: 2018-10-27T03:24:34.837Z
 ---
