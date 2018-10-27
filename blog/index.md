@@ -1,3 +1,8 @@
+---
+layout: base.njk
+title: Blog
+---
+
 # Spooooky Kitties
 ## Love to bloooooog
 

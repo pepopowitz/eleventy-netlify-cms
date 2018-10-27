@@ -1,3 +1,8 @@
+---
+layout: base.njk
+title: Home
+---
+
 # Spoooooooky Kitties
 ## They will melt your heart and eat your brains
 

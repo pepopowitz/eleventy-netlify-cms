@@ -1,3 +1,8 @@
+---
+layout: base.njk
+title: About
+---
+
 # About Spooooky Kitties
 
 * They are spooky!
