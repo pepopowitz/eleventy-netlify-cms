@@ -14,7 +14,7 @@ add admin folder
     </body>
     </html>
     ```
-    
+
   config.yml
     
     ```yaml
@@ -36,3 +36,19 @@ add admin folder
     ```
 
 addPassthroughCopy('admin')
+
+add Identity widget
+  ```html
+  <head>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  </head
+  ```
+
+  admin/index.html
+  _includes/base.njk
+
+https://app.netlify.com/sites/spooooooky-kitties/identity
+  > Enable Identity
+  > Open or Invite Only
+  > Add Google provider
+  > Enable Git Gateway
