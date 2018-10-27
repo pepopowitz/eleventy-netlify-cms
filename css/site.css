@@ -1,0 +1,16 @@
+body {
+  background-color: black;
+  color: orange;
+}
+
+a, a:visited, a:active {
+  color: white;
+}
+
+img {
+  width: 500px;
+}
+
+ul {
+  display: inline-block;
+}
