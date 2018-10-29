@@ -1,0 +1,347 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+	"cms-0-0": {
+		"scope": "json",
+		"prefix": "cms-0-0",
+		"body": [
+			"\"scripts\": {",
+			"	\"start\": \"eleventy --serve\"",
+			"}"
+		],
+		"description": "Local development script"
+	},
+	"cms-0-1": {
+		"scope": "markdown",
+		"prefix": "cms-0-1",
+		"body": [
+			"# Spoooooooky Kitties",
+			"## They will melt your heart and eat your brains",
+			"",
+			"Other things they will eat:",
+			"",
+			"* Candy Corn",
+			"* Dead Mice",
+			"* Hot Pockets"
+		],
+		"description": "Add index page"
+	},
+	"cms-1-0": {
+		"scope": "markdown",
+		"prefix": "cms-1-0",
+		"body": [
+			"![Spoooky Kitty](/images/kitty-1.jpg)"
+		],
+		"description": "Add image to index"
+	},
+	"cms-1-1": {
+		"scope": "javascript",
+		"prefix": "cms-1-1",
+		"body": [
+			"module.exports = function(eleventyConfig) {",
+			"	eleventyConfig.addPassthroughCopy(\"images\");",
+			"",
+			"	return {",
+			"		passthroughFileCopy: true",
+			"	};",
+			"};"
+		],
+		"description": "Copy images through"
+	},
+	"cms-2-0": {
+		"scope": "markdown",
+		"prefix": "cms-2-0",
+		"body": [
+			"# About Spooooky Kitties",
+			"",
+			"* They are spooky!",
+			"* They want to eat your brains!",
+			"* They also want to cudddle!"
+		],
+		"description": "Add about page"
+	},
+	"cms-2-1": {
+		"scope": "markdown",
+		"prefix": "cms-2-1",
+		"body": [
+			"# Spoooooooky Bloggy Kitties",
+			"",
+			"They like to blog, and we'll put their posts here in the future."
+		],
+		"description": "Add blog index page"
+	},
+	"cms-2-2": {
+		"scope": "markdown",
+		"prefix": "cms-2-2",
+		"body": [
+			"# Spoooooky Kitties",
+			"## Can't fiiiiind what you're looking foooooor",
+			"",
+			"🐱 🤷‍♀️",
+			"🐱 🤷‍♀️",
+			"🐱 🤷‍♀️"
+		],
+		"description": "Add 404 page"
+	},
+	"cms-3-0": {
+		"scope": "json",
+		"prefix": "cms-3-0",
+		"body": [
+			"\"build\": \"eleventy\"",
+		],
+		"description": "Add build script"
+	},
+	"cms-3-1": {
+		"scope": "markdown",
+		"prefix": "cms-3-1",
+		"body": [
+			"---",
+			"permalink: 404.html",
+			"---"
+		],
+		"description": "Configure 404 page"
+	},
+	"cms-4-0": {
+		"scope": "nunjucks",
+		"prefix": "cms-4-0",
+		"body": [
+			"<!doctype html>",
+			"<html lang=\"en\">",
+			"	<head>",
+			"		<title>Spooooky Kitties!</title>",
+			"	</head>",
+			"	<body style=\"text-align: center\">",
+			"		{{ content }}",
+			"	</body>",
+			"</html>"
+		],
+		"description": "Add a base layout"
+	},
+	"cms-4-1": {
+		"scope": "nunjucks",
+		"prefix": "cms-4-1",
+		"body": [
+			"<header>",
+			"	<nav>",
+			"		<a href=\"/\">Home</a>",
+			"		<a href=\"/about\">About</a>",
+			"		<a href=\"/blog\">Blog</a>",
+			"	</nav>",
+			"</header>"
+		],
+		"description": "Add header"
+	},
+
+	"cms-5-post-1": {
+		"scope": "markdown",
+		"prefix": "cms-5-post-1",
+		"body": [
+			"## Kittens are the best!",
+			"",
+			"Especially when they are spoooooky.",
+			"",
+			"![spooky kitty](/images/kitty-2.jpg)"
+		],
+		"description": "Nested Layouts: Post 1"
+	},
+	"cms-5-post-2": {
+		"scope": "markdown",
+		"prefix": "cms-5-post-2",
+		"body": [
+			"## Kittens are still cool.",
+			"",
+			"Not totally sure about the spoooooky ones, though.",
+			"",
+			"![spooky kitty](/images/kitty-3.jpg)"
+		],
+		"description": "Nested Layouts: Post 2"
+	},
+	"cms-5-post-3": {
+		"scope": "markdown",
+		"prefix": "cms-5-post-3",
+		"body": [
+			"## Kittens are okay.",
+			"",
+			"They are kind of spoooooking me out.",
+			"",
+			"![spooky kitty](/images/kitty-4.jpg)"
+		],
+		"description": "Nested Layouts: Post 3"
+	},
+	"cms-5-post-4": {
+		"scope": "markdown",
+		"prefix": "cms-5-post-4",
+		"body": [
+			"## Kittens are meh.",
+			"",
+			"The spooooky ones are the worst.",
+			"",
+			"![spooky kitty](/images/kitty-5.jpg)"
+		],
+		"description": "Nested Layouts: Post 4"
+	},
+	"cms-5-post-5": {
+		"scope": "markdown",
+		"prefix": "cms-5-post-5",
+		"body": [
+			"## NO MORE SPOOOOKY KITTENS",
+			"",
+			"I am shutting this blog down.",
+			"",
+			"![spooky kitty](/images/kitty-6.jpg)"
+		],
+		"description": "Nested Layouts: Post 5"
+	},
+	"cms-5-1": {
+		"scope": "nunjucks",
+		"prefix": "cms-5-1",
+		"body": [
+			"<h1>Blog!!!</h1>",
+			"",
+			"{{ content | safe }}"
+		],
+		"description": "Add blog layout"
+	},
+	"cms-6-0": {
+		"scope": "css",
+		"prefix": "cms-6-0",
+		"body": [
+			"body {",
+			"	background-color: black;",
+			"	color: orange;",
+			"}",
+			"",
+			"a, a:visited, a:active {",
+			"	color: white;",
+			"}",
+			"",
+			"img {",
+			"	width: 500px;",
+			"}",
+			"",
+			"ul {",
+			"	display: inline-block;",
+			"}"
+		],
+		"description": "Add css file"
+	},
+	"cms-6-1": {
+		"scope": "nunjucks",
+		"prefix": "cms-6-1",
+		"body": [
+			"<link rel=\"stylesheet\" type=\"text/css\" href=\"/css/site.css\" />",
+		],
+		"description": "Include css in layout"
+	},
+	"cms-7-0": {
+		"scope": "nunjucks",
+		"prefix": "cms-7-0",
+		"body": [
+			"<h1>Spooooooky Bloggy Kitties</h1>",
+			"",
+			"<div>",
+			"	<ul>",
+			"		{%- for post in collections.post -%}",
+			"			<li>",
+			"				<a href=\"{{post.url}}\">{{post.data.title}}</a>",
+			"			</li>",
+			"		{%- endfor -%}",
+			"	</ul>",
+			"</div>"
+		],
+		"description": "Convert blog/index.md"
+	},
+	"cms-7-1": {
+		"scope": "yaml",
+		"prefix": "cms-7-1",
+		"body": [
+			"date: 2018-01-01T00:00:00.000Z",
+		],
+		"description": "Specify order of posts"
+	},
+	"cms-7-2": {
+		"scope": "javascript",
+		"prefix": "cms-7-2",
+		"body": [
+			"eleventyConfig.addCollection(\"postsReversed\", collection => {",
+			"	return collection.getFilteredByTag(\"post\").reverse();",
+			"});"
+		],
+		"description": "Reverse order of posts"
+	},
+	"cms-8-0": {
+		"scope": "",
+		"prefix": "cms-8-0",
+		"body": [
+			"<!doctype html>",
+			"<html>",
+			"<head>",
+			"	<meta charset=\"utf-8\" />",
+			"	<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />",
+			"	<title>Content Manager</title>",
+			"</head>",
+			"<body>",
+			"	<!-- Include the script that builds the page and powers Netlify CMS -->",
+			"	<script src=\"https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js\"></script>",
+			"</body>",
+			"</html>"
+		],
+		"description": "Add admin page"
+	},
+	"cms-8-1": {
+		"scope": "yaml",
+		"prefix": "cms-8-1",
+		"body": [
+			"backend:",
+			"	name: git-gateway",
+			"	branch: mkejs",
+			"media_folder: \"images/uploads\"",
+			"collections:",
+			"	- name: \"blog\" # Used in routes, e.g., /admin/collections/blog",
+			"		label: \"Blog\" # Used in the UI",
+			"		folder: \"blog\" # The path to the folder where the documents are stored",
+			"		create: true # Allow users to create new documents in this collection",
+			"		slug: \"{{year}}-{{month}}-{{day}}-{{slug}}\" # Filename template, e.g., YYYY-MM-DD-title.md",
+			"		fields: # The fields for each document, usually in front matter",
+			"			- {label: \"Layout\", name: \"layout\", widget: \"hidden\", default: \"blog\"}",
+			"			- {label: \"tags\", name: \"tags\", widget: \"hidden\", default: \"post\"}",
+			"			- {label: \"Title\", name: \"title\", widget: \"string\"}",
+			"			- {label: \"Publish Date\", name: \"date\", widget: \"datetime\"}",
+			"			- {label: \"Body\", name: \"body\", widget: \"markdown\"}"
+		],
+		"description": "Configure Netlify CMS"
+	},
+	"cms-8-2": {
+		"scope": "html, nunjucks",
+		"prefix": "cms-8-2",
+		"body": [
+			"<script src=\"https://identity.netlify.com/v1/netlify-identity-widget.js\"></script>"
+		],
+		"description": "Add Netlify identity"
+	},
+	"cms-thank-you": {
+		"scope": "markdown",
+		"prefix": "cms-thank-you",
+		"body": [
+			"# THANK YOU!",
+			"## @pepopowitz",
+			"## steven.j.hicks@gmail.com",
+			"## stevenhicks.me/simplifying-content-management"
+		],
+		"description": "Thank you!"
+	},
+}
