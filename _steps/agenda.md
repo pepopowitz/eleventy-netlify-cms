@@ -68,6 +68,14 @@ Other things they will eat:
 
 #### ☑️ Explain what 11ty is doing
 
+### ☑️ Commit Work:
+
+```
+git add .
+git commit -m "setup"
+git push origin
+```
+
 ---
 
 ## **1. Images**
@@ -107,6 +115,14 @@ module.exports = function(eleventyConfig) {
 ```
 
 #### ☑️ View site - image!
+
+### ☑️ Commit Work:
+
+```
+git add .
+git commit -m "images"
+git push origin
+```
 
 ---
 
@@ -151,6 +167,14 @@ They like to blog, and we'll put their posts here in the future.
 🐱 🤷‍♀️
 ```
 
+### ☑️ Commit Work:
+
+```
+git add .
+git commit -m "more content"
+git push origin
+```
+
 ---
 
 ## **3. Netlify**
@@ -174,7 +198,7 @@ Let's push this sucker live!
 
 ```bash
 git add .
-git commit -m "Push this sucker live!"
+git commit -m "Netlify"
 git push origin
 ```
 
@@ -203,6 +227,14 @@ permalink: 404.html
 #### ☑️ Confirm 404 shows for unknown url's
 
 Netlify serves 404.html for unknown url's by convention.
+
+### ☑️ Commit Work:
+
+```
+git add .
+git commit -m "404s"
+git push origin
+```
 
 ---
 
@@ -286,6 +318,14 @@ title: XXXX
 </header>    
 ```
 
+### ☑️ Commit Work:
+
+```
+git add .
+git commit -m "layouts"
+git push origin
+```
+
 ---
 
 We're going to publish blog posts
@@ -330,6 +370,14 @@ Especially when they are spoooooky.
 ---
 layout: base.njk
 ---
+```
+
+### ☑️ Commit Work:
+
+```
+git add .
+git commit -m "nested layouts"
+git push origin
 ```
 
 ---
@@ -394,6 +442,14 @@ module.exports = function(eleventyConfig) {
 
   return { ... };
 };
+```
+
+### ☑️ Commit Work:
+
+```
+git add .
+git commit -m "css"
+git push origin
 ```
 
 ---
@@ -482,6 +538,14 @@ module.exports = function(eleventyConfig) {
 </div>
 ```
 
+### ☑️ Commit Work:
+
+```
+git add .
+git commit -m "collections"
+git push origin
+```
+
 ---
 
 ## **8. Netlify Admin**
@@ -563,6 +627,14 @@ module.exports = function(eleventyConfig) {
 <head>
 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head
+```
+
+#### ☑️ Commit Work:
+
+```
+git add .
+git commit -m "netlify cms"
+git push origin
 ```
 
 #### ☑️ Configure Netlify identity
