@@ -251,6 +251,10 @@
 		"scope": "nunjucks",
 		"prefix": "cms-7-0",
 		"body": [
+			"---",
+			"layout: base.njk",
+			"---",
+			"",
 			"<h1>Spooooooky Bloggy Kitties</h1>",
 			"",
 			"<div>",
