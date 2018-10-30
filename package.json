@@ -10,6 +10,7 @@
     "@11ty/eleventy": "^0.5.4"
   },
   "scripts": {
-    "start": "eleventy --serve"
+    "start": "eleventy --serve",
+    "build": "eleventy"
   }
 }
