@@ -1,5 +1,8 @@
 ---
 layout: blog.njk
+tags: post
+title: Post 2
+date: 2018-10-02T00:00:00.000Z
 ---
 
 ## Kittens are still cool.
